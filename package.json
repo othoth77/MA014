@@ -1,0 +1,18 @@
+{
+  "name": "@mythos/ma014-estimator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "MYTHOS ESTIMATOR — technical costing and material optimization agent",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.1"
+  }
+}
